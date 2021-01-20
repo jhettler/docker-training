@@ -1,16 +1,16 @@
 FROM python:3.8-buster
 
-ARG TIMEZONE="Europe/Prague"
+# ARG TIMEZONE="Europe/Prague"
 
-ENV TZ=$TIMEZONE
+# ENV TZ=$TIMEZONE
 
-RUN mkdir work
+# RUN mkdir work
 
-WORKDIR /work
+# WORKDIR /work
 
-COPY requirements.txt requirements.txt
+# COPY requirements.txt requirements.txt
 
-RUN pip3 install -r requirements.txt
+# RUN pip3 install -r requirements.txt
 
 # ENTRYPOINT ["python"]
 
